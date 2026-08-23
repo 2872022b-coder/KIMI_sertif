@@ -1,0 +1,9 @@
+export const STORAGE_KEYS = {
+  USERS: 'fm_users',
+  PRODUCTS: 'fm_products',
+  TRANSACTIONS: 'fm_transactions',
+  CART: 'fm_cart',
+  AUTH: 'fm_auth',
+  DEPOSIT_REQUESTS: 'fm_deposit_requests',
+  MESSAGES: 'fm_messages',
+};export const ROLES = {  USER: 'user',  ADMIN: 'admin',};export const TRANSACTION_TYPES = {  DEPOSIT: 'deposit',  WITHDRAWAL: 'withdrawal',  TRANSFER_OUT: 'transfer_out',  TRANSFER_IN: 'transfer_in',  ADMIN_ADJUST: 'admin_adjust',};
